@@ -51,9 +51,9 @@ The editor will load with the default options
 2. Passing some parameters
 
 ```
-URL: http://localhost:3000/?txt=Check%20out%20my%20sweet%20wings&txtclr=fff&txtalign=center%2Cmiddle&txtsize=48&bm=normal&balph=50
+URL: http://localhost:3000/?txt=Hello%20World&txtclr=FFFF33&txtalign=left%2Cmiddle&txtsize=40
 ```
-<img src="/src/assets/" alt="some" height="500">
+<img src="/src/assets/Some-parameters.png" alt="some" height="500">
 
 The editor will load with the selected parameters and will load the rest by default
 
