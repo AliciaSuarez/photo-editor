@@ -3,7 +3,6 @@ import useStyles from './style';
 import photo from '../assets/mountains.jpg';
 
 function Photo(props) {
-  console.log(props)
   const classes = useStyles();
   let fontStyle = { ...props.fontStyle, fontSize: props.fontStyle.fontSize + 'px' };
   let backgroundImage = { backgroundImage: `url(${photo})`, width: props.width+'px'};

@@ -8,7 +8,7 @@ const useStyles = makeStyles((alignItems) => ({
     alignItems: 'center',
     padding: '.5rem',
   },
-  photoContainer:{
+  photoContainer: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
@@ -18,13 +18,13 @@ const useStyles = makeStyles((alignItems) => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100% 100%',
   },
-  overlay:{
+  overlay: {
     display: 'flex',
     flexDirection: 'row',
     overflow: 'hidden',
     margin: '0rem',
-    width:'100%',
-    height: '100%'
+    width: '100%',
+    height: '100%',
   },
   fontSize: {
     width: '4.4rem',
@@ -40,15 +40,16 @@ const useStyles = makeStyles((alignItems) => ({
       backgroundColor: '#3f51b5',
     },
   },
-  pickersContainer:{
+  pickersContainer: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    padding: '.5rem',  },
-  pickers:{
-    flexBasis: '45%'
-  }
+    padding: '.5rem',
+  },
+  pickers: {
+    flexBasis: '45%',
+  },
 }));
 
 export default useStyles;
