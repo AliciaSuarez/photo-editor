@@ -8,8 +8,8 @@ function getProps() {
   props.bm = props.bm || 'normal';
   props.txt = props.txt || 'your text here';
   props.txtalign = setTextAlign(props.txtalign) || ['center', 'center'];
-  props.txtclr = props.txtclr || 'fff';
-  props.txtsize = props.txtsize || 48;
+  props.txtclr = props.txtclr || '000';
+  props.txtsize = props.txtsize || 30;
   props.w = props.w || '1225';
   return props;
 }

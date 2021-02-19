@@ -8,7 +8,12 @@ const useStyles = makeStyles((alignItems) => ({
     alignItems: 'center',
     padding: '.5rem',
   },
-  photoContainer: {
+  photoContainer:{
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  photo: {
     height: '35rem',
     backgroundRepeat: 'no-repeat',
     backgroundSize: '100% 100%',

@@ -10,10 +10,12 @@ function Photo(props) {
   let boxStyle = { ...props.style, backgroundColor: props.background.value };
   return (
     <>
-      <div className={classes.photoContainer} style={backgroundImage}>
+    <div className={classes.photoContainer}>
+      <div className={classes.photo} style={backgroundImage}>
         <div className={classes.overlay} style={boxStyle}>
           <div style={fontStyle}>{props.content}</div>
         </div>
+      </div>
       </div>
     </>
   );

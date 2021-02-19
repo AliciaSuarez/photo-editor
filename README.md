@@ -1,4 +1,4 @@
-# React Calendar
+# React Photo Editor
 
 ## Overview
 
@@ -36,5 +36,38 @@ yarn install
 yarn start
 ```
 
+## How to use
+
+1. Without passing any parameter by url
+
+```
+URL: http://localhost:3000/
+```
+<img src="/src/assets/Default-parameters.png" alt="default" height="500">
+
+The editor will load with the default options
 
 
+2. Passing some parameters
+
+```
+URL: http://localhost:3000/?txt=Check%20out%20my%20sweet%20wings&txtclr=fff&txtalign=center%2Cmiddle&txtsize=48&bm=normal&balph=50
+```
+<img src="/src/assets/" alt="some" height="500">
+
+The editor will load with the selected parameters and will load the rest by default
+
+3. Passing all parameters
+
+```
+URL: http://localhost:3000/?txt=Check%20out%20my%20sweet%20wings&txtclr=fff&txtalign=center%2Cmiddle&txtsize=48&bm=normal&balph=50
+```
+<img src="/src/assets/All-parameters.png" alt="all" height="500">
+
+The editor takes all the parameters from the url
+
+4. Using editor
+
+<img src="/src/assets/Editor-parameters.png" alt="editor" height="500">
+
+After loading the editor, you can change all the options using the options that the editor offers
